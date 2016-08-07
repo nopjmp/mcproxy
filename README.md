@@ -13,11 +13,13 @@ You need to make sure the minecraft server is not in online mode.
 
 ## Notice
 
-Encrypted / compressed packets are not support yet.
+All this does is directly pass the packets right now.
+
+Does not make decisions.
 
 ## TODO
-* Encryption support
-* Compression support
+* Encryption processing
+* Compression processing
 * Multi-server configuration
 * Custom statuses (cumulative player count)
 * Support BungeeCord configuration packets
